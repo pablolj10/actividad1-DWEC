@@ -1,5 +1,5 @@
 var numero = prompt("numero");
-
+numero = parseInt(numero);
 
 while (numero<=0) {
     numero = prompt("numero");
@@ -22,3 +22,6 @@ function sumatorio (numero) {
     }
     return resultado;
 }
+
+esEntero(numero);
+console.log(sumatorio(numero));
